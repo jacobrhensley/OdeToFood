@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OdeToFood.data.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace OdeToFood.data.Services
 {
     public interface IRestrauntData
     {
-        IEnumerable<Restraunt>
+        IEnumerable<Restraunt> GetAll();
     }
 }
